@@ -10,6 +10,7 @@ declare var $:any;
 })
 export class AppComponent {
 
+//test
    ngAfterViewInit() {
         var obj = $('#search');
         var keyups = Observable.fromEvent(obj, "keyup");
