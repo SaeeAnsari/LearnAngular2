@@ -1,6 +1,6 @@
 
 import { Component , ElementRef, OnInit} from '@angular/core';
-import {FormGroup, FormControl, FormBuilder, Validators} from '@angular/forms';
+import {FormGroup, FormControl, FormBuilder, Validators, ReactiveFormsModule}from '@angular/forms';
 import {User} from './user';
 
 @Component({
@@ -20,13 +20,13 @@ export class UserComponent implements OnInit {
 
   ngOnInit() {
 
-    this.myForm = this._fb.group({
+    /*this.myForm = this._fb.group({
       name: ['John', [<any>Validators.required, <any>Validators.minLength(5)]],
       address: this._fb.group({
         street: ['', <any>Validators.required],
         postcode: ['']
       })
-    });
+    });*/
   }
 
   save(model: User, isValid: boolean){
