@@ -1,0 +1,6 @@
+<div class="container">
+  <h4>Add Customer</h4>
+  <form [formGroup]="myForm" novalidate (ngSubmit)="save(myForm)">
+    <button type="submit" [disabled]="!myForm.valid">Submit</button>
+  </form>
+</div>

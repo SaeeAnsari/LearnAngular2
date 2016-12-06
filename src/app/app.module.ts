@@ -8,12 +8,16 @@ import { AppComponent } from './app.component';
 
 import { TestComponentComponent } from './test-component/test-component.component';
 import { UserComponent } from './user/user.component';
+import { AddUserComponent } from './add-user/add-user.component';
+import { AddCustomerComponent } from './add-customer/add-customer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponentComponent,
     UserComponent,
+    AddUserComponent,
+    AddCustomerComponent,
   ],
   imports: [
     BrowserModule,
