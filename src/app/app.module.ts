@@ -11,6 +11,7 @@ import { UserComponent } from './user/user.component';
 import { AddUserComponent } from './add-user/add-user.component';
 import { AddCustomerComponent } from './add-customer/add-customer.component';
 import { AddressComponent } from './add-customer/address/address.component';
+import { UserRegistrationComponent } from './user-registration/user-registration.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { AddressComponent } from './add-customer/address/address.component';
     UserComponent,
     AddUserComponent,
     AddCustomerComponent,    
-    AddressComponent,
+    AddressComponent, UserRegistrationComponent,
   ],
   imports: [
     BrowserModule,
