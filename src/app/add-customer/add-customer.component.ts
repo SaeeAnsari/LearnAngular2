@@ -30,12 +30,12 @@ export class AddCustomerComponent implements OnInit {
   }
 
   addAddress(){
-    const control = <FormArray>this.myForm.controls['address'];
+    const control = <FormArray>this.myForm.controls['addresses'];
     control.push(this.initAddress());
   }
 
   removeAddress(i: number){
-    const control = <FormArray>this.myForm.controls['address'];
+    const control = <FormArray>this.myForm.controls['addresses'];
     control.removeAt(i);
   }
 
